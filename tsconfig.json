@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Or any ES version
+    "esModuleInterop": true // Or else TypeScript will complain about CJS packages, even if Node can `import` them
+  }
+}

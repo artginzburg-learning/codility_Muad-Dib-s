@@ -1,0 +1,17 @@
+{
+  "name": "codility_muad-dib-s",
+  "type": "module",
+  "scripts": {
+    "start": "npm run test:watch",
+    "test": "ava",
+    "test:watch": "ava --watch"
+  },
+  "ava": {
+    "nodeArguments": [
+      "--experimental-specifier-resolution=node"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^4.2.0"
+  }
+}
